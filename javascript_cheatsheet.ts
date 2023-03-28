@@ -46,3 +46,12 @@ for (let [key, value] of Object.entries(myObject)) {
   console.log(key, value);
 }
 /***************************** for loop: End *****************************/
+/** Stack */
+/**
+Notes:
+  The data structure stack is a collection of sequential items and follows the principle LIFO.
+  LIFO: Last In First Out --> The last element inserted into the stack/array(push) is first element to removed(pop)
+
+  https://www.youtube.com/watch?v=a1fyufVlLmk&ab_channel=Codevolution
+ */ 
+/***************************** Stack: End *****************************/
