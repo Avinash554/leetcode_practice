@@ -47,11 +47,56 @@ for (let [key, value] of Object.entries(myObject)) {
 }
 /***************************** for loop: End *****************************/
 /** Stack */
+
 /**
 Notes:
   The data structure stack is a collection of sequential items and follows the principle LIFO.
   LIFO: Last In First Out --> The last element inserted into the stack/array(push) is first element to removed(pop)
 
   https://www.youtube.com/watch?v=a1fyufVlLmk&ab_channel=Codevolution
- */ 
+ */
 /***************************** Stack: End *****************************/
+/** Time complexity */
+
+/**
+Notes:
+  Time complexity is the amount of time required for a program to run, as a function of 'input size'.
+  Performance based 'in terms of input size'.
+  Time complexity notation: Big-O - Worst case complexity
+
+  1. Big-O Notation(O-notation) - Worst case complexity
+  2. Omega Notation (Ω-notation) - Best case complexity (Ignore for beginner)
+  3. Theta Notation(θ-notation) - Avergae case complexity (Ignore for beginner)
+
+  Time complexity types:-
+  Constant O(1):
+    for the given input 'n' the statement in the program runs only once.
+    Good to consider while writing code.
+  Liner O(n): 
+    Example: 1 'for/nested' loop
+    Fair to consider while writing code.
+  Qudaratic O(n^2):
+    Example: 2 'for/nested' loop's
+  Cubic O(n^3):
+    Example: 3 'for/nested' loop's
+  logarithmic O(log n): 
+    If input size reduces by half every iteration.
+    Good to consider while writing code.
+  
+  https://javascript.plainenglish.io/what-is-time-complexity-1211eeb70f69
+  https://www.youtube.com/watch?v=Fo2Qnw5pMGo&ab_channel=Codevolution
+  https://www.youtube.com/watch?v=3yUuo7TqMW8&ab_channel=Codevolution
+ */
+/***************************** Time complexity: End *****************************/
+/** Space complexity */
+/**
+Notes:
+  Space complexity is amount of memory required for a programm to run, as a function of 'input size'.
+  If app needs to be very quick and has plenty of memory to work with, you don't have to worry about space complexity
+
+  Space complexity types:-
+  Constant O(1):
+  Liner O(n): 
+  logarithmic O(log n): 
+ */
+/***************************** Space complexity: End *****************************/
