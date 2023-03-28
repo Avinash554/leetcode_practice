@@ -86,6 +86,23 @@ Notes:
   https://javascript.plainenglish.io/what-is-time-complexity-1211eeb70f69
   https://www.youtube.com/watch?v=Fo2Qnw5pMGo&ab_channel=Codevolution
   https://www.youtube.com/watch?v=3yUuo7TqMW8&ab_channel=Codevolution
+
+---------------------------------------------------------------------------------
+Objects - Big-O:
+  An object is collection of key-value pairs
+  Insert, Remove, Access - O(1)
+  Search, Object.keys(), Object.values(), Object.entries() - O(n)
+
+Arrays - Big-O:
+  An array is an ordered collection of values.
+  Insert/remove at end, Access - O(1)
+  Insert/remove at begining - O(n) because index has to be reset for every remaining element in an array.
+  Search - O(n)
+  push/pop - O(1)
+  shift/unshift/concat/slice/splice - O(n)
+  forEach/map/filter/reduce - O(n) (It can be O(n^2) if callback function has for loop)
+
+  https://www.youtube.com/watch?v=XkhLTlFXxbI&ab_channel=Codevolution
  */
 /***************************** Time complexity: End *****************************/
 /** Space complexity */
