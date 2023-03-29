@@ -46,7 +46,23 @@ for (let [key, value] of Object.entries(myObject)) {
   console.log(key, value);
 }
 /***************************** for loop: End *****************************/
-/** Stack */
+/** Methods */
+
+/**
+Notes:
+  filter() :
+    The filter() method creates a new array filled with elements that pass the test provided by a function.
+    The filter() method does not change the original array.
+    If no elements pass the test it returns an empty array.
+    filter((currentValue/element, index, array) => { code statments here });
+    https://www.w3schools.com/jsref/jsref_filter.asp
+---------------------------------------------------------------------------------
+  map() :
+---------------------------------------------------------------------------------
+ */
+
+/***************************** Methods: End *****************************/
+/** Data structure: Stack */
 
 /**
 Notes:
