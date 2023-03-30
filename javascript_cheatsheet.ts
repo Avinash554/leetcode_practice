@@ -2,11 +2,17 @@
 
 
 
-/***************************** for loop: start *****************************/
-/**
- * https://www.udacity.com/blog/2021/01/javascript-for-loop.html
- */
+/***************************** Github: Start *****************************/
+/** Github */
 
+/**
+Notes:
+  To show ‘Github’ contributions:
+    git config --global user.email 'email'
+    https://linuxize.com/post/how-to-configure-git-username-and-email/
+ */
+/***************************** Github: End *****************************/
+/** for loop */
 const myString = "Hello World"; //10 values
 const myArray = [10, 11, 12, 13, 14]; //4 values
 const myObject = {
@@ -45,14 +51,19 @@ for (let i of myArray) {
 for (let [key, value] of Object.entries(myObject)) {
   console.log(key, value);
 }
+
+/**
+Notes:
+  https://www.udacity.com/blog/2021/01/javascript-for-loop.html
+ */
 /***************************** for loop: End *****************************/
 /** Methods */
 
 /**
 Notes:
   push() :
-   The push() method adds a new items to the end of an array and return new length of array. 
-   The push() method changes the length of an array.
+    The push() method adds a new items to the end of an array and return new length of array. 
+    The push() method changes the length of an array.
     push(element0, element1, ..... , elementN);
    https://www.w3schools.com/jsref/jsref_push.asp
 ---------------------------------------------------------------------------------
