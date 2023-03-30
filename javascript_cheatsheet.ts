@@ -50,6 +50,18 @@ for (let [key, value] of Object.entries(myObject)) {
 
 /**
 Notes:
+  push() :
+   The push() method adds a new items to the end of an array and return new length of array. 
+   The push() method changes the length of an array.
+    push(element0, element1, ..... , elementN);
+   https://www.w3schools.com/jsref/jsref_push.asp
+---------------------------------------------------------------------------------
+  pop() :
+    The pop() method removes and returns last element of an array.
+    The pop() method changes original array.
+    The removed item can be 'string', 'number', 'array' or any other type allowed in an array.
+    https://www.w3schools.com/jsref/jsref_pop.asp
+---------------------------------------------------------------------------------
   filter() :
     The filter() method creates a new array filled with elements that pass the test provided by a function.
     The filter() method does not change the original array.
@@ -58,6 +70,10 @@ Notes:
     https://www.w3schools.com/jsref/jsref_filter.asp
 ---------------------------------------------------------------------------------
   map() :
+    The map() method creates a new array calling a function for eavery array element.
+    The map() method does not change the original array.
+    map((currentValue/element, index, array) => {code statments here});
+    https://www.w3schools.com/jsref/jsref_map.asp
 ---------------------------------------------------------------------------------
  */
 
@@ -100,8 +116,8 @@ Notes:
     Good to consider while writing code.
   
   https://javascript.plainenglish.io/what-is-time-complexity-1211eeb70f69
-  https://www.youtube.com/watch?v=Fo2Qnw5pMGo&ab_channel=Codevolution
-  https://www.youtube.com/watch?v=3yUuo7TqMW8&ab_channel=Codevolution
+  https://www.youtube.com/watch?v=Fo2Qnw5pMGo&ab_channel=Codevolution 
+  https://www.youtube.com/watch?v=3yUuo7TqMW8&ab_channel=Codevolution | Horrible -> Bad -> Fair -> Good -> Excellent
 
 ---------------------------------------------------------------------------------
 Objects - Big-O:
@@ -116,7 +132,7 @@ Arrays - Big-O:
   Search - O(n)
   push/pop - O(1)
   shift/unshift/concat/slice/splice - O(n)
-  forEach/map/filter/reduce - O(n) (It can be O(n^2) if callback function has for loop)
+  filter/map/forEach/reduce - O(n) (It can be O(n^2) if callback function has for loop)
 
   https://www.youtube.com/watch?v=XkhLTlFXxbI&ab_channel=Codevolution
  */
