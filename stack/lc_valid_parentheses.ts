@@ -3,9 +3,7 @@
 
 
 /** LeetCode: 20.Valid Parentheses */
-
 /** Solution 1: Using 'for loop' */
-
 /*
 const s = "()";
 // Array intilization
